@@ -506,17 +506,6 @@ ol > li::before {
   text-decoration: none;
 }
 
-.btn {
-  cursor: pointer;
-  display: inline-block;
-  padding: .375em .75em .42em;
-  background-color: #333;
-  border-radius: 8px;
-  border: 3px solid #333;
-  color: #fff;
-  text-decoration: none;
-}
-
 .btn-light, .btn--light {
   background-color: #e2e2e2;
   border-color: #e2e2e2;
@@ -607,10 +596,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}
-
-fieldset {
-  border: 1px solid;
 }
 
 legend {
@@ -905,20 +890,6 @@ a:focus, [tabindex="0"]:focus {
   content: none; /* Remove the bullets if nice lists is selected */
 }
 
-.skip-links a,
-.skip-links button {
-  padding: .5em .75em;
-  position: absolute;
-  top: -10em;
-  z-index: 10000; /* To make sure they're always on top */
-  background-color: #000;
-  border: 0;
-  color: #fff;
-  font-size: 1.125rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .skip-links a:focus,
 .skip-links button:focus {
   outline-offset: 3px;
@@ -936,6 +907,18 @@ a:focus, [tabindex="0"]:focus {
 [aria-disabled] {
   cursor: default;
 }
+
+@media print {
+
+  .no-print {
+    display: none;
+    visibility: hidden;
+  }
+
+  .print-only {
+    display: block;
+    visibility: visible;
+  }
 
   /*
    * (c) HTML5 Boilerplate || MIT License

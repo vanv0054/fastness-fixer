@@ -880,12 +880,6 @@ a:focus, [tabindex="0"]:focus {
   outline-offset: 3px;
 }
 
-.skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .skip-links > li::before {
   content: none; /* Remove the bullets if nice lists is selected */
 }
@@ -913,11 +907,6 @@ a:focus, [tabindex="0"]:focus {
   .no-print {
     display: none;
     visibility: hidden;
-  }
-
-  .print-only {
-    display: block;
-    visibility: visible;
   }
 
   /*

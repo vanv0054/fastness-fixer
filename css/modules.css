@@ -903,12 +903,6 @@ a:focus, [tabindex="0"]:focus {
 }
 
 @media print {
-
-  .no-print {
-    display: none;
-    visibility: hidden;
-  }
-
   /*
    * (c) HTML5 Boilerplate || MIT License
    *     https://html5boilerplate.com/

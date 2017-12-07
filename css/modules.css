@@ -208,10 +208,6 @@ svg.img-flex {
   width: 100%;
 }
 
-.media {
-  overflow: hidden;
-}
-
 .media-img, .media__img {
   float: left;
 }
@@ -227,14 +223,6 @@ svg.img-flex {
 .media-body, .media__body {
   overflow: hidden;
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
-}
-
-.icon {
-  display: inline-block;
-  position: relative;
-  background: transparent none no-repeat center center;
-  background-size: contain;
-  vertical-align: middle;
 }
 
 .i-16, .i--16 {
@@ -527,13 +515,6 @@ ol > li::before {
   border: 3px solid #333;
   color: #fff;
   text-decoration: none;
-}
-
-.btn:focus,
-.btn:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
 }
 
 .btn-light, .btn--light {
@@ -955,23 +936,6 @@ a:focus, [tabindex="0"]:focus {
 [aria-disabled] {
   cursor: default;
 }
-
-.print-only {
-  display: none;
-  visibility: hidden;
-}
-
-@media print {
-
-  .no-print {
-    display: none;
-    visibility: hidden;
-  }
-
-  .print-only {
-    display: block;
-    visibility: visible;
-  }
 
   /*
    * (c) HTML5 Boilerplate || MIT License
